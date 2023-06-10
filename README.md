@@ -1,5 +1,6 @@
 # Multiprocessing Video Frame Extraction
- Utilizes mutiprocessing and opencv to extract frames from videos
+
+## Utilizes mutiprocessing and opencv to extract frames from videos
 
 
 Credits: @chi0tzp https://github.com/chi0tzp/PyVideoFramesExtractor

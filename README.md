@@ -33,7 +33,7 @@ optional arguments:
 
 ### Example for single video (use --single_vid)
 ```commandline
-    python extract.py --single_vid test/abcde.mp4 --output_dir "./frames" --sample_freq 0.3 --outcsv_dir "./"
+python extract.py --single_vid test/abcde.mp4 --output_dir "./frames" --sample_freq 0.3 --outcsv_dir "./"
 ```
 
 Extracted frames for the above example will be stored under as follows:
@@ -59,7 +59,7 @@ Output CSV for the above example will be as follows
 
 ### Samples Usage for a directory with multiprocessing (use --data-dir)
 ```commandline
-    python extract.py --data_dir "./videos" --sample_freq 2 --num_workers 4 --outcsv_dir "./" 
+python extract.py --data_dir "./videos" --sample_freq 2 --num_workers 4 --outcsv_dir "./" 
 ```
 
 Once again, 
